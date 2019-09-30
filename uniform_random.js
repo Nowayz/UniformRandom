@@ -78,6 +78,6 @@ class UniformRandom {
       this.reset();
   }
 
-  next(){ this.generate(true);}
-  prev(){ this.generate(false);}
+  next(){ return this.generate(true);}
+  prev(){ return this.generate(false);}
 }
